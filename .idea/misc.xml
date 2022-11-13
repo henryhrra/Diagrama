@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/drawable/bordes_curvos.xml" value="0.2935" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/drawable/ic_diagram_.xml" value="0.2935" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/drawable/ic_help_.xml" value="0.2935" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/drawable/ic_icono_background.xml" value="0.2935" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/layout/activity_diagrama.xml" value="0.3523550724637681" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/layout/activity_main.xml" value="0.3523550724637681" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/layout/activity_main2.xml" value="0.3591485507246377" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/layout/error.xml" value="0.3523550724637681" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/layout/indicaciones.xml" value="0.3591485507246377" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/layout/molde.xml" value="0.3523550724637681" />
+        <entry key="..\:/Users/Hrra/Desktop/Diagrama/app/src/main/res/layout/molde_if.xml" value="0.3591485507246377" />
+        <entry key="..\:/Users/Hrra/Documents/Ciclo 2 2022/Apps/Diagrama/app/src/main/res/layout/activity_diagrama.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hrra/Documents/Ciclo 2 2022/Apps/Diagrama/app/src/main/res/layout/error.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hrra/Documents/Ciclo 2 2022/Apps/Diagrama/app/src/main/res/layout/indicaciones.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

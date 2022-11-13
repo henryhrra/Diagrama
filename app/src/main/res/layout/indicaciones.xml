@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bordes_curvos"
+    android:backgroundTint="@color/hrra"
+    android:paddingHorizontal="15dp"
+    android:gravity="center">
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Indicaciones"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="5dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <androidx.cardview.widget.CardView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardCornerRadius="20dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:text="Al hace uso de esta aplicación podrá hacer uso de las siguientes palabras reservadas: \n\nStart: Se usa para iniciar el diagrama, es obligatoria para comenzar el uso.\nEjemplo: Start\n\nRead: Se usa para leer una variable, debe colocar la palabra un espacio y la variable.\nEjemplo: Read b\n\nIf: para usar la variable if debe dejar un espacio colocar un = y luego texto, deber dar un salto de línea para colocar que sucede al entrar en la condición, debe dar un salto de línea y colocar la palabra else luego dar un salto de línea y colocar que pasa si no cumple con la condición y debe terminar el if dando un salto de línea y colocar la palabra endif.\n\nEjemplo: \n\nIf a = 5  \na = a + 5 \nElse  \na = a - 5 \nEndif\n\nPrint: Se usa para imprimir una variable, debe colocar la palabra un espacio y la variable a imprimir.\nEjemplo: Print b\n\nEnd: Se usa para cerrar el diagrama, es obligatorio cerrar el ciclo\nEjemplo: end"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Ejemplo"
+        android:layout_margin="10dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="center">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp">
+            <TextView
+                android:paddingHorizontal="10dp"
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Start\nRead a\nIf a = 5\na = a + 5\nelse\na = a - 5\nEndif\nPrint a\nEnd"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFF"
+            android:textColor="@color/black"
+            android:id="@+id/ejemplo"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:text="Imprimir ejemplo"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFF"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:id="@+id/ok"
+            android:text="Cerrar"/>
+    </LinearLayout>
+
+
+</LinearLayout>
